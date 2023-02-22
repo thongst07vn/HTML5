@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 2</title>
+    <link rel="stylesheet" href="../css/bt2.css">
+    <script src="../js/bt2.js" defer></script>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="fullname">Name</label>
+            <input type="text" name="fullname" id="fullname" placeholder="TRAN ANH KIET">
+
+            <br/>
+            <label for="telephone">Telephone</label>
+            <input type="text" name="telephone" id="telephone" placeholder="0123860602">
+
+            <br/>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="abcd@gmail.com">
+            <span id="spanname" hidden>*</span>
+            <span id="spanemail" hidden>*</span>
+        </fieldset>
+        <!-- ====================== -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="birthdate">Birth Date</label>
+            <input type="date" name="birthdate" id="birthdate" placeholder="mm/dd/yyyy">
+
+            <br/>
+            <label for="Age">Age</label>
+            <input type="text" name="age" id="age" placeholder="36">
+
+            <br/>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female" selected="">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br/>
+            <label for="question">When did you first know you wanted to be a zoo-keeper?</label>
+            <textarea name="question" id="question" cols="30" rows="10"></textarea>
+            <span id="spanbirthdate" hidden>*</span>
+            <span id="spanage" hidden>*</span>
+            <span id="spanquestion" hidden>*</span>
+        </fieldset>
+        <!-- ====================== -->
+        <fieldset>
+            <legend>Pick Your Favorite Animals</legend>
+            <input type="checkbox" name="zebra" id="zebra">
+            <label for="zebra">Zebra</label>
+            <input type="checkbox" name="cat" id="cat">
+            <label for="cat">Cat</label>
+            <input type="checkbox" name="anaconda" id="anaconda">
+            <label for="anaconda">Anaconda</label>
+            <input type="checkbox" name="human" id="human">
+            <label for="human">Human</label>
+
+            <br/>
+            <input type="checkbox" name="elephant" id="elephant">
+            <label for="elephant">Elephant</label>
+            <input type="checkbox" name="wildebeest" id="wildebeest">
+            <label for="wildebeest">Wildebeest</label>
+            <input type="checkbox" name="pigeon" id="pigeon">
+            <label for="pigeon">Pigeon</label>
+            <input type="checkbox" name="crab" id="crab">
+            <label for="crab">Crab</label>
+        </fieldset>
+        <input type="button" value="Submit Aplication" id="btn1">
+    </form>
+
+</body>
+</html>

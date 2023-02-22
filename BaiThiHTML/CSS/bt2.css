@@ -1,0 +1,115 @@
+:root{
+    --can-le: 8px 0;
+    --font-input: Arial, Helvetica, sans-serif !important;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset{
+    width: 584px;
+    margin: 30px 0;
+}
+fieldset >input{
+    margin: var(--can-le);
+    font-family: var(--font-input);
+}
+#telephone{
+    position: relative;
+    left: 50px;
+    width: 232px;
+}
+fieldset:nth-child(1) input:not(:nth-child(6)){
+    position: relative;
+    left: 78px;
+    width: 232px;
+}
+fieldset:nth-child(2){
+    height: 256px;
+}
+#birthdate{
+    position: relative;
+    left: 50px;
+    width: 234px;
+}
+fieldset:nth-child(2) input:not(:nth-child(3)){
+    position: relative;
+    left: 90px;
+    width: 232px;
+   
+}
+#gender{
+    position: relative;
+    left: 69px;
+    width: 240px;
+    margin: var(--can-le);
+    font-family: var(--font-input);
+}
+fieldset:nth-child(2) > label:nth-child(11){
+    position: absolute;
+    width: 100px;
+    top: 350px;
+}
+fieldset:nth-child(2) > textarea{
+    position: relative;
+    left: 120px;
+    height: 100px;
+    width: 235px;
+    margin: var(--can-le);
+    font-family: var(--font-input);
+
+}
+/* ====================== */
+fieldset:nth-child(3) > input:nth-child(4) , fieldset:nth-child(3) > label:nth-child(5){
+    position: relative;
+    left: 70px;
+}
+fieldset:nth-child(3) > input:nth-child(6) , fieldset:nth-child(3) > label:nth-child(7){
+    position: relative;
+    left: 160px;
+}
+fieldset:nth-child(3) > input:nth-child(8) , fieldset:nth-child(3) > label:nth-child(9){
+    position: relative;
+    left: 210px;
+}
+fieldset:nth-child(3) > input:nth-child(13) , fieldset:nth-child(3) > label:nth-child(14){
+    position: relative;
+    left: 50px;
+}
+fieldset:nth-child(3) > input:nth-child(15) , fieldset:nth-child(3) > label:nth-child(16){
+    position: relative;
+    left: 92px;
+}
+fieldset:nth-child(3) > input:nth-child(17) , fieldset:nth-child(3) > label:nth-child(18){
+    position: relative;
+    left: 162px;
+}
+/* ====================== */
+span{
+    position: absolute;
+    color: red
+}
+fieldset:nth-child(1) > span:nth-child(10){
+    left:65px;
+    top: 62px;
+}
+fieldset:nth-child(1) > span:nth-child(11){
+    top: 136px;
+    left: 65px;
+}
+fieldset:nth-child(2) > span:nth-child(13){
+    top: 241px;
+    left: 90px;
+}
+fieldset:nth-child(2) > span:nth-child(14){
+    top: 279px;
+    left: 49px;
+}
+fieldset:nth-child(2) > span:nth-child(15){
+    top: 406px;
+    left: 100px;
+}
+#btn1{
+    font-family: var(--font-input);
+    padding: 12px 18px;
+}
