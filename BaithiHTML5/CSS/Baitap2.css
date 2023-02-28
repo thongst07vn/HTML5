@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+}
+.color{
+    color: red;
+}
+fieldset{
+    width: 500px;
+    height: fit-content;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+}
+fieldset:nth-child(2){
+    height: 230px;
+}
+fieldset:first-child > input:nth-child(3){
+    margin: 10px 0 0 8px;
+}
+input{
+    margin: 10px 0 0 10px;
+}
+label{
+    margin: 10px 10px 0;
+}
+fieldset:first-child > input:nth-child(11){
+    margin: 10px 0 0 38px ;
+}
+fieldset:nth-child(2) > input:nth-child(7){
+    margin: 10px 0 0 47px;
+}
+select{
+    width: 172px;
+    margin: 10px 0 0 27px;
+}
+fieldset:nth-child(2) > label:nth-child(14){
+    position: absolute;
+    width: 90px;
+    margin: 10px 0 0 10px;
+}
+fieldset:nth-child(2) > span:nth-child(15){
+    position: absolute;
+    top: 182px;
+    left: 72px;
+}
+textarea{
+    position: absolute;
+    width:  167px;
+    height: 85px;
+    margin: 10px 0 0 10px;
+}
+fieldset:nth-child(3) > input:nth-child(4) , fieldset:nth-child(3) > label:nth-child(5){
+    position: relative;
+    left: 50px;
+}
+fieldset:nth-child(3) > input:nth-child(6) , fieldset:nth-child(3) > label:nth-child(7){
+    position: relative;
+    left: 120px;
+}
+fieldset:nth-child(3) > input:nth-child(8) , fieldset:nth-child(3) > label:nth-child(9){
+    position: relative;
+    left: 140px;
+}
+fieldset:nth-child(3) > input:nth-child(13) , fieldset:nth-child(3) > label:nth-child(14){
+    position: relative;
+    left: 30px;
+}
+fieldset:nth-child(3) > input:nth-child(15) , fieldset:nth-child(3) > label:nth-child(16){
+    position: relative;
+    left: 52px;
+}
+fieldset:nth-child(3) > input:nth-child(17) , fieldset:nth-child(3) > label:nth-child(18){
+    position: relative;
+    left: 92px;
+}
+form > input:last-child{
+    margin: 10px 0 0 5px;
+    padding: 10px;
+}
